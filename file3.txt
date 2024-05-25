@@ -1,0 +1,44 @@
+commands
+
+    Creating Branches: git branch <branch_name>
+    Switching between Branches: git checkout <branch_name>
+    Deleting Branches: git branch -d <branch_name>
+    Merging Branches: git merge <branch_name>
+    Pushing and Pulling Branches to/from remote repositories on GitHub.
+
+
+git status
+
+git branch (determine branch name)
+
+To push and pull branches to and from remote repositories on GitHub, you'll typically follow these steps:
+
+    Push Branch to Remote Repository:
+    To push a branch to a remote repository on GitHub, you can use the following command:
+    text
+
+git push origin <branch_name>
+
+This command will push the specified branch to the remote repository (origin) on GitHub.
+
+Pull Branch from Remote Repository:
+To pull changes from a remote branch on GitHub to your local repository, you can use the following command:
+text
+
+git pull origin <branch_name>
+
+This command will fetch the changes from the remote repository (origin) and merge them into your current branch.
+
+Tracking Remote Branches:
+If you want to track a remote branch so that you can push and pull changes more easily, you can set up tracking by using:
+text
+
+    git branch --set-upstream-to=origin/<branch_name> <local_branch_name>
+
+    This way, you can simply use git pull and git push without specifying the remote branch each time.
+
+Remember to replace <branch_name> with the actual name of the branch you want to push or pull. Also, make sure you have the necessary permissions to push to the remote repository on GitHub.
+
+Let me know if you need more details or if you have any specific questions about pushing and pulling branches to and from remote repositories on GitHub!
+
+
