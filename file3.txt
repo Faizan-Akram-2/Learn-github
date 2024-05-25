@@ -9,7 +9,7 @@ commands
 
 git status
 
-git branch (determine branch name)
+git branch (This command will give you name of the branch)
 
 To push and pull branches to and from remote repositories on GitHub, you'll typically follow these steps:
 
