@@ -1,0 +1,46 @@
+make mkdir new_folder
+cd new_folder
+Here we be group or set or a single file which you want to add remote Github Repositorie.
+install git by following commands
+sudo  apt update &&  install git 
+Create Account in Github 
+
+Now Use below Commands
+git int (it will initialize the git)
+git status (Optional, you can see the status)
+git add .   (the directory in which you all files will be uploaded otherwise spcifies file eg git add file1.txt)
+git status  (you can see previous status will change)
+git commit -m "First Commit"
+git status  (you can use status updated from previous one)
+
+
+may ask authentication
+you will have to copy/paste from above prompt then give your username and password
+
+git config --global user.username "usermane"
+git config --global user.password "password"
+git config -l (check configuration)
+
+All the local git changes are save Then move to Github to  create repositories
+Give name to Repositories
+Now set the different parameter according to your requiremnt
+Then click create repositories
+
+Now move to Terminal 
+git add remote url
+git branch main
+git push origin main (username and password will be asked)
+Note: your password will not b accepted as git policy change
+
+
+Follow Steps
+
+    Create Personal Access Token on GitHub
+
+    From your GitHub account, go to Settings → Developer Settings → Personal Access Token → Tokens (classic) → Generate New Token (Give your password) → Fillup the form → click Generate token → Copy the generated Token, it will be something like ghp_sFhFsSHhTzMDreGRLjmks4Tzuzgthdvfsrta
+
+Now again enter 
+git push origin main 
+Now add username and in password add token
+
+Refresh or reload the Github Repositorie 
