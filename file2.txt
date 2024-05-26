@@ -1,5 +1,4 @@
-Once GIT is configured, we can begin using it to access GitHub. Example:
-
+Once GIT is configured, we can start using it to access GitHub.
 
 Username: <type your username>
 Password: <type your password or personal access token (GitHub)
@@ -12,3 +11,5 @@ If needed, anytime you can delete the cache record by:
 
 $ git config --global --unset credential.helper
 $ git config --system --unset credential.helper
+
+i hope this will be very helpful.
